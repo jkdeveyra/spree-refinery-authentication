@@ -15,15 +15,15 @@ module Spree
     end
 
     def spree_login_path
-      refinery.new_refinery_user_session_path
+      refinery.login_path
     end
 
     def spree_signup_path
-      refinery.new_refinery_user_registration_path
+      refinery.signup_path
     end
 
     def spree_logout_path
-      refinery.destroy_refinery_user_session_path
+      refinery.logout_path
     end
   end
 end
